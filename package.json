@@ -1,0 +1,47 @@
+{
+  "name": "api-proxy.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/proxy-js.umd.cjs",
+  "module": "./dist/proxy-js.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/counter.js",
+    "require": "./dist/counter.umd.cjs"
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "node ./test/index.js",
+    "preinstall": "npm run build"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/crypto-js": "^4.2.2",
+    "@types/express": "^5.0.0",
+    "@types/socket.io": "^3.0.2",
+    "@types/socket.io-client": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "crypto-js": "^4.2.0",
+    "express": "^4.21.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VitoriaMy/api-proxy.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VitoriaMy/api-proxy.js/issues"
+  },
+  "homepage": "https://github.com/VitoriaMy/api-proxy.js#readme"
+}

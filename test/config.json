@@ -1,0 +1,7 @@
+{
+    "clientToken": "client",
+    "proxyPort": 8000,
+    "proxyHost": "http://localhost:8000",
+    "secretKey": "123456",
+    "serverToken": "server"
+}
