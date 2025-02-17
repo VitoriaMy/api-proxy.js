@@ -1,4 +1,4 @@
-[中文版](./readme_zh.md)
+[中文版](./README_zh.md)
 
 # api-proxy.js
 
