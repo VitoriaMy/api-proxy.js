@@ -4,7 +4,7 @@
 
 ![npm](https://img.shields.io/npm/v/proxy-js)
 ![license](https://img.shields.io/npm/l/proxy-js)
-![downloads](https://img.shields.io/npm/dt/proxy-js)
+<!-- ![downloads](https://img.shields.io/npm/dt/proxy-js) -->
 
 ## 简介
 

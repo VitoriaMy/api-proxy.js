@@ -4,7 +4,7 @@
 
 ![npm](https://img.shields.io/npm/v/api-proxy.js)
 ![license](https://img.shields.io/npm/l/api-proxy.js)
-![downloads](https://img.shields.io/npm/dt/api-proxy.js)
+<!-- ![downloads](https://img.shields.io/npm/dt/api-proxy.js) -->
 
 ## Introduction
 
