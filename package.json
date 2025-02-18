@@ -15,9 +15,9 @@
     "require": "./dist/counter.umd.cjs"
   },
   "scripts": {
-    "build": "tsc && vite build",
-    "test": "node ./test/index.js",
-    "preinstall": "npm run build"
+    "build": "vite build",
+    "preinstall": "npm run build",
+    "test": "node ./test/index.js"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
