@@ -7,7 +7,7 @@
 
 ## Introduction
 
-api-proxy.js is a proxy service used to forward external API requests to the internal network and return the response.
+api-proxy.js is a proxy service used to forward external API requests to the internal network and return the response. It relies on socket.io, socket.io-client, and express.
 
 ## Service Overview
 
@@ -24,7 +24,7 @@ api-proxy.js is a proxy service used to forward external API requests to the int
 Install using npm:
 
 ```bash
-npm install api-proxy.js
+npm install socket.io socket.io-client express api-proxy.js
 ```
 
 ## Configuration

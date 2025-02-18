@@ -7,7 +7,7 @@
 
 ## 简介
 
-api-proxy.js 是一个用于将外部 API 请求转发到内网并返回响应的代理服务。
+api-proxy.js 是一个用于将外部 API 请求转发到内网并返回响应的代理服务。 依赖于 socket.io socket.io-client express
 
 ## 服务概览
 
@@ -24,7 +24,7 @@ api-proxy.js 是一个用于将外部 API 请求转发到内网并返回响应�
 使用 npm 安装：
 
 ```bash
-npm install api-proxy.js
+npm install socket.io socket.io-client express api-proxy.js
 ```
 
 ## 配置
