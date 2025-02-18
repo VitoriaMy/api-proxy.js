@@ -6,13 +6,13 @@
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/main.umd.cjs",
-  "module": "./dist/main.js",
+  "main": "./dist/main.0.0.4.umd.cjs",
+  "module": "./dist/main.0.0.4.js",
   "types": "./index.d.ts",
   "exports": {
     "types": "./index.d.ts",
-    "import": "./dist/main.js",
-    "require": "./dist/main.umd.cjs"
+    "import": "./dist/main.0.0.4.js",
+    "require": "./dist/main.0.0.4.umd.cjs"
   },
   "scripts": {
     "test": "node ./test/index.js",
