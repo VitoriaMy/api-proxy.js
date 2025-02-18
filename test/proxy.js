@@ -9,7 +9,6 @@ export default function (config = {}) {
         clientToken,
         serverToken,
         secretKey,
-        proxyPort,
     } = config;
 
     const server = createServer();
@@ -20,7 +19,7 @@ export default function (config = {}) {
         secretKey,
     }, server);
 
-    server.listen(proxyPort, () => {
-        console.log(`proxy is running at http://localhost:${proxyPort}`);
+    server.listen(8000, () => {
+        console.log(`proxy is running at http://localhost:${8000}`);
     });
 }

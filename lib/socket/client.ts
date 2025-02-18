@@ -2,6 +2,7 @@ import { io } from "socket.io-client";
 import type { Socket } from "socket.io-client";
 import { encryptData, decryptData } from "./unit";
 import { Router } from "express";
+import type { Request } from "express";
 import bodyParser from 'body-parser';
 
 function createSocket({
@@ -77,7 +78,7 @@ export default function ({
     clientToken: string,
     proxyHost: string,
     secretKey: string,
-}, actionHandler: Function) {
+}, actionHandler: (req: Request) => Promise<any>) {
 
     const socketState = createSocket({
         clientToken,

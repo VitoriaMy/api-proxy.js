@@ -4,8 +4,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './lib/main.ts',
-      name: 'proxy-js',
-      fileName: 'proxy-js',
+      name: 'api-proxy.js',
+      fileName: 'main',
     },
     rollupOptions: {
       output: {

@@ -93,7 +93,4 @@ export default function ({
             response(data, timeStamp, callback);
         });
     });
-
-    return io;
-
 }

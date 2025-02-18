@@ -6,17 +6,17 @@
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/proxy-js.umd.cjs",
-  "module": "./dist/proxy-js.js",
+  "main": "./dist/main.umd.cjs",
+  "module": "./dist/main.js",
   "types": "./index.d.ts",
   "exports": {
     "types": "./index.d.ts",
-    "import": "./dist/counter.js",
-    "require": "./dist/counter.umd.cjs"
+    "import": "./dist/main.js",
+    "require": "./dist/main.umd.cjs"
   },
   "scripts": {
-    "postinstall": "vite build",
-    "test": "node ./test/index.js"
+    "test": "node ./test/index.js",
+    "build": "vite build"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
