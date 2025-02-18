@@ -15,8 +15,7 @@
     "require": "./dist/counter.umd.cjs"
   },
   "scripts": {
-    "build": "vite build",
-    "preinstall": "npm run build",
+    "postinstall": "vite build",
     "test": "node ./test/index.js"
   },
   "devDependencies": {
