@@ -1,18 +1,18 @@
 {
   "name": "api-proxy.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "files": [
     "dist",
     "index.d.ts"
   ],
-  "main": "./dist/main.0.0.4.umd.cjs",
-  "module": "./dist/main.0.0.4.js",
+  "main": "./dist/main.0.0.5.umd.cjs",
+  "module": "./dist/main.0.0.5.js",
   "types": "./index.d.ts",
   "exports": {
     "types": "./index.d.ts",
-    "import": "./dist/main.0.0.4.js",
-    "require": "./dist/main.0.0.4.umd.cjs"
+    "import": "./dist/main.0.0.5.js",
+    "require": "./dist/main.0.0.5.umd.cjs"
   },
   "scripts": {
     "test": "node ./test/index.js",
